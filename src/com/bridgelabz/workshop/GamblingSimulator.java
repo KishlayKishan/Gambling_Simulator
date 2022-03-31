@@ -15,10 +15,10 @@ public class GamblingSimulator {
 			Random random = new Random();
 			int betReturns = random.nextInt(2);
 			if (betReturns == WIN) {
-				stake++;// incrementing
+				stake++;
 				System.out.println("win");
 			} else {
-				stake--;// decrementing
+				stake--;
 				System.out.println("loss");
 			}
 			System.out.println("stake = " + stake);
@@ -27,7 +27,7 @@ public class GamblingSimulator {
 
 		public static void main(String[] args) {
 			System.out.println("Welcome to Gambling Simulation");
-			winCheck();// calling function
+			winCheck();
 		}
 
 	}
